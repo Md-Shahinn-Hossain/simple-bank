@@ -4,11 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Documen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  
-  <script src="js/bootstrap.bundle.min.js"></script>
+<body class="w-3/4 mx-auto">
+    <header>
+        <h1 class="text-5xl text-center mt-16 mb-8">Let's get some <span class="text-yellow-800 font-semibold">MONEY</span></h1>
+        <main>
+            <section>
+                <div class="grid grid-cols-3 gap-4 text-white">
+                <div class = 'bg-blue-400 p-8 rounded'>
+                    <h3 class="text-2xl">Deposite</h3>
+                    <h2  class="text-4xl">$<span id="deposit_text">00</span></h2>
+                </div>
+                <div class = 'bg-red-400 p-8 rounded'>
+                    <h3 class="text-2xl">Withdraw</h3>
+                    <h2  class="text-4xl">$<span id="withdraw_text">00</span></h2>
+                </div>
+                <div class = 'bg-green-400 p-8 rounded'>
+                    <h3 class="text-2xl">Balance</h3>
+                    <h2 class="text-4xl">$ <span id="balance">1100</span> </h2>
+                </div>
+            </div>
+            </section>
+            <!-- Deposite and Withdrow -->
+            <section class="mt-4">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-yellow-300 p-8 rounded">
+                        <h3 class="text-3xl mb-1">Please Deposite</h3>
+                    <div>
+                        <!-- deposit input -->
+                        <input id="deposit" type="text" placeholder="amount of deposit" class="border-2 border-red-400 rounded-md block mb-4 p-1 w-3/4">
+                        <button id="btnd" class="bg-slate-400 p-3 rounded-md font-medium">deposit</button>
+                    </div>
+                    </div>
+                    <div class="bg-red-200 p-8 rounded">
+                        <h3 class="text-3xl mb-1">Please Withdraw</h3>
+                    <div>
+                        <input id="withdraw" type="text" placeholder="amount of withdraw" class="border-2 border-red-400 rounded-md block mb-4 p-1 w-3/4">
+                        <button id="btnw" class="bg-slate-400 p-3 rounded-md font-medium">withdraw</button>
+                    </div>
+                    </div>
+                </div>
+
+
+            </section><!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Documen</title>
+                <script src="https://cdn.tailwindcss.com"></script>
+            </head>
+            <body class="w-3/4 mx-auto">
+                <header>
+                    <h1 class="text-5xl text-center mt-16 mb-8">Let's get some <span class="text-yellow-800 font-semibold">MONEY</span></h1>
+                    <main>
+                        <section>
+                            <div class="grid grid-cols-3 gap-4 text-white">
+                            <div class = 'bg-blue-400 p-8 rounded'>
+                                <h3 class="text-2xl">Deposite</h3>
+                                <h2  class="text-4xl">$<span id="deposit_text">00</span></h2>
+                            </div>
+                            <div class = 'bg-red-400 p-8 rounded'>
+                                <h3 class="text-2xl">Withdraw</h3>
+                                <h2  class="text-4xl">$<span id="withdraw_text">00</span></h2>
+                            </div>
+                            <div class = 'bg-green-400 p-8 rounded'>
+                                <h3 class="text-2xl">Balance</h3>
+                                <h2 class="text-4xl">$ <span id="balance">1100</span> </h2>
+                            </div>
+                        </div>
+                        </section>
+                        <!-- Deposite and Withdrow -->
+                        <section class="mt-4">
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-yellow-300 p-8 rounded">
+                                    <h3 class="text-3xl mb-1">Please Deposite</h3>
+                                <div>
+                                    <!-- deposit input -->
+                                    <input id="deposit" type="text" placeholder="amount of deposit" class="border-2 border-red-400 rounded-md block mb-4 p-1 w-3/4">
+                                    <button id="btnd" class="bg-slate-400 p-3 rounded-md font-medium">deposit</button>
+                                </div>
+                                </div>
+                                <div class="bg-red-200 p-8 rounded">
+                                    <h3 class="text-3xl mb-1">Please Withdraw</h3>
+                                <div>
+                                    <input id="withdraw" type="text" placeholder="amount of withdraw" class="border-2 border-red-400 rounded-md block mb-4 p-1 w-3/4">
+                                    <button id="btnw" class="bg-slate-400 p-3 rounded-md font-medium">withdraw</button>
+                                </div>
+                                </div>
+                            </div>
+            
+            
+                        </section>
+                    </main>
+            
+            
+                </header>
+                <script src="practice.js"></script>
+            </body>
+            </html>
+        </main>
+
+
+    </header>
+    <script src="practice.js"></script>
 </body>
 </html>
